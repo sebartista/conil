@@ -13,7 +13,7 @@ if( isset($_POST['data']) ){
 			die("badcaptcha");
 		} else {
 
-			$to      = 'mgarciadutriez@gmail.com';
+			$to      = 'alberto@conilpublicidad.com.ar';
 			$subject = 'Conil Contacto';
 
 			$message = '<p>Este email ha sido desde el formulario de contacto de Conil</p>';
@@ -34,7 +34,7 @@ if( isset($_POST['data']) ){
 			$message .= '</tbody>';
 			$message .= '</table>';
 
-			$email_to = "info@conilpublicidad.com.ar";
+			$email_to = "alberto@conilpublicidad.com.ar";
 					// 1nf0Habitar
 
 
@@ -44,7 +44,7 @@ if( isset($_POST['data']) ){
 
 				// Additional headers
 			$headers .= 'Bcc: mgarciadutriez@hotmail.com'."\r\n";
-			$headers .= 'From: info@conilpublicidad.com.ar' . "\r\n";
+			$headers .= 'From: alberto@conilpublicidad.com.ar' . "\r\n";
 			if(mail($to, $subject, $message, $headers)){
 				echo "success";
 			}
