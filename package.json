@@ -13,7 +13,7 @@
     "font-awesome": "4.7.0",
     "jquery": "^3.4.1",
     "jquery.easing": "^1.4.1",
-    "npm": "^5.10.0",
+    "npm": "^6.13.4",
     "scrollreveal": "3.3.6",
     "slick-carousel": "^1.8.1"
   },
